@@ -1,13 +1,15 @@
-NAME = libftprintf.a
-SRCS =		ft_printf.c\
-			ft_putchar.c\
-			ft_putstr.c\
-			ft_putnbr.c\
-			ft_puthexnbr.c\
-			ft_putunbr.c
+NAME = libft.a
+SRCS =	ft_arrlen.c\
+		ft_bzero.c\
+		ft_calloc.c\
+		ft_split.c\
+		ft_strdup.c\
+		ft_strlcat.c\
+		ft_strlen.c\
+		ft_strncmp.c
 
 OBJS = $(SRCS:.c=.o)
-INCL = ft_printf.h
+INCL = libft.h
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 

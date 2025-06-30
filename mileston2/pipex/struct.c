@@ -6,7 +6,7 @@
 /*   By: nbuquet- <nbuquet-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/27 17:55:40 by nbuquet-          #+#    #+#             */
-/*   Updated: 2025/02/27 19:11:35 by nbuquet-         ###   ########.fr       */
+/*   Updated: 2025/03/06 19:59:34 by nbuquet-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_cleancmdpaths(char **cmd_paths)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (cmd_paths[i])
@@ -28,8 +28,8 @@ void	ft_cleancmdpaths(char **cmd_paths)
 
 void	ft_cleanargs(char ***args)
 {
-	int	i;
-	int	j;
+	size_t	i;
+	size_t	j;
 
 	i = 0;
 	while (args[i])
@@ -67,13 +67,7 @@ t_pipex	*ft_newpipex(void)
 	pipex = (t_pipex *)malloc(sizeof(t_pipex));
 	if (!pipex)
 		return (NULL);
-	pipex->cmd_paths = (char **)malloc(sizeof(char *));
-	if (!pipex->cmd_paths)
-		return (ft_cleanpipex(pipex));
-	pipex->args = (char ***)malloc(sizeof(char **));
-	if (!pipex->args)
-		return (ft_cleanpipex(pipex));
-	pipex->in = 0;
-	pipex->out = 0;
+	pipex->args = NULL;
+	pipex->cmd_paths = NULL;
 	return (pipex);
 }
