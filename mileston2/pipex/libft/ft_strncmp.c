@@ -1,31 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nico <nico@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: nbuquet- <nbuquet-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/03 17:52:52 by nico              #+#    #+#             */
-/*   Updated: 2024/10/05 14:58:39 by nico             ###   ########.fr       */
+/*   Created: 2024/09/19 19:12:51 by nico              #+#    #+#             */
+/*   Updated: 2025/03/02 19:58:55 by nbuquet-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
-void	ft_putstr(char *s, int *cs)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	unsigned int	i;
+	size_t	i;
 
-	if (!s)
+	i = 0;
+	while ((s1[i] || s2[i]) && i < n)
 	{
-		write(1, "(null)", 6);
-		(*cs) += 6;
-		return ;
+		if (s1[i] != s2[i])
+			return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+		i++;
 	}
-	i = -1;
-	while (s[++i])
-	{
-		write(1, &s[i], 1);
-		(*cs)++;
-	}
+	return (0);
 }
