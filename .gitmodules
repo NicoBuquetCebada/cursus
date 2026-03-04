@@ -1,0 +1,27 @@
+[submodule "mileston0/libft"]
+	path = mileston0/libft
+	url = https://github.com/NicoBuquetCebada/libft
+[submodule "mileston1/ft_printf"]
+	path = mileston1/ft_printf
+	url = https://github.com/NicoBuquetCebada/ft_printf
+[submodule "mileston1/get_next_line"]
+	path = mileston1/get_next_line
+	url = https://github.com/NicoBuquetCebada/get_next_line
+[submodule "mileston2/push_swap"]
+	path = mileston2/push_swap
+	url = https://github.com/NicoBuquetCebada/push_swap
+[submodule "mileston2/pipex"]
+	path = mileston2/pipex
+	url = https://github.com/NicoBuquetCebada/pipex
+[submodule "mileston2/fdf"]
+	path = mileston2/fdf
+	url = https://github.com/NicoBuquetCebada/fdf
+[submodule "mileston3/minishell"]
+	path = mileston3/minishell
+	url = https://github.com/NicoBuquetCebada/minishell
+[submodule "mileston3/philosophers"]
+	path = mileston3/philosophers
+	url = https://github.com/NicoBuquetCebada/philosophers
+[submodule "mileston4/net_practice"]
+	path = mileston4/net_practice
+	url = https://github.com/NicoBuquetCebada/net_practice
