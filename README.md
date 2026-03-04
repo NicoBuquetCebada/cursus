@@ -28,7 +28,7 @@ Este repositorio está organizado según los milestones del cursus:
 <details>
 <summary><strong>Milestone 0</strong></summary>
 
-- **[libft](mileston0/libft)**  
+- **[libft](https://github.com/NicoBuquetCebada/libft)**  
   Implementación de una librería personal en C que recrea funciones esenciales de la librería estándar para comprender la gestión de memoria y la programación de bajo nivel.
 
 </details>
@@ -36,13 +36,13 @@ Este repositorio está organizado según los milestones del cursus:
 <details>
 <summary><strong>Milestone 1</strong></summary>
 
-- **[ft_printf](mileston1/ft_printf)**  
+- **[ft_printf](https://github.com/NicoBuquetCebada/ft_printf)**  
   Reimplementación de la función `printf` para aprender el manejo de funciones variádicas, formateo de cadenas y procesamiento de datos.
 
-- **[get_next_line](mileston1/get_next_line)**  
+- **[get_next_line](https://github.com/NicoBuquetCebada/get_next_line)**  
   Desarrollo de una función que permite leer un archivo línea por línea desde un descriptor de fichero gestionando buffers de forma eficiente.
 
-- **[born2beroot](mileston1/born2beroot)**  
+- **[born2beroot](https://github.com/NicoBuquetCebada/born2beroot)**  
   Proyecto de administración de sistemas que consiste en configurar y asegurar una máquina virtual Linux con Debian siguiendo estrictas reglas de seguridad.
 
 </details>
@@ -50,13 +50,13 @@ Este repositorio está organizado según los milestones del cursus:
 <details>
 <summary><strong>Milestone 2</strong></summary>
 
-- **[push_swap](mileston3/push_swap)**  
+- **[push_swap](https://github.com/NicoBuquetCebada/push_swap)**  
   Proyecto algorítmico que consiste en ordenar números utilizando dos pilas con el menor número posible de operaciones.
 
-- **[pipex](mileston2/pipex)**  
+- **[pipex](https://github.com/NicoBuquetCebada/pipex)**  
   Reproducción del comportamiento de los pipes de Unix conectando procesos mediante descriptores de archivo y tuberías.
 
-- **[fdf](mileston2/fdf)**  
+- **[fdf](https://github.com/NicoBuquetCebada/fdf)**  
   Proyecto gráfico que representa un mapa en 3D en forma de wireframe a partir de un archivo de alturas utilizando minilibx, una librería gráfica.
 
 </details>
@@ -64,10 +64,10 @@ Este repositorio está organizado según los milestones del cursus:
 <details>
 <summary><strong>Milestone 3</strong></summary>
 
-- **[minishell](mileston3/minishell)**  
+- **[minishell](https://github.com/NicoBuquetCebada/minishell)**  
   Implementación de un intérprete de comandos Linux basado en el comportamiento de Bash que permite, entre otras cosas, la ejecución de binarios, el manejo de pipes, redirecciones y variables de entorno.
 
-- **[philosophers](mileston3/philosophers)**  
+- **[philosophers](https://github.com/NicoBuquetCebada/philosophers)**  
   Simulación del problema de los filósofos comensales para estudiar concurrencia, sincronización y uso de hilos.
 
 </details>
@@ -75,7 +75,7 @@ Este repositorio está organizado según los milestones del cursus:
 <details>
 <summary><strong>Milestone 4</strong></summary>
 
-- **[net_practice](mileston4/net_practice)**  
+- **[net_practice](https://github.com/NicoBuquetCebada/net_practice)**  
   Proyecto enfocado en comprender el direccionamiento IP, el subnetting y el enrutamiento mediante ejercicios prácticos de redes.
 
 </details>
@@ -129,7 +129,7 @@ This repository is organized according to the cursus milestones:
 <details>
 <summary><strong>Milestone 0</strong></summary>
 
-- **[libft](mileston0/libft)**  
+- **[libft](https://github.com/NicoBuquetCebada/libft)**  
   Implementation of a personal C library that recreates essential functions from the standard library in order to understand memory management and low-level programming.
 
 </details>
@@ -137,13 +137,13 @@ This repository is organized according to the cursus milestones:
 <details>
 <summary><strong>Milestone 1</strong></summary>
 
-- **[ft_printf](mileston1/ft_printf)**  
+- **[ft_printf](https://github.com/NicoBuquetCebada/ft_printf)**  
   Reimplementation of the `printf` function to learn about variadic functions, string formatting, and data processing.
 
-- **[get_next_line](mileston1/get_next_line)**  
+- **[get_next_line](https://github.com/NicoBuquetCebada/get_next_line)**  
   Development of a function that reads a file line by line from a file descriptor while efficiently managing buffers.
 
-- **[born2beroot](mileston1/born2beroot)**  
+- **[born2beroot](https://github.com/NicoBuquetCebada/born2beroot)**  
   A system administration project that consists of configuring and securing a Debian-based Linux virtual machine following strict security rules.
 
 </details>
@@ -151,13 +151,13 @@ This repository is organized according to the cursus milestones:
 <details>
 <summary><strong>Milestone 2</strong></summary>
 
-- **[push_swap](mileston3/push_swap)**  
+- **[push_swap](https://github.com/NicoBuquetCebada/push_swap)**  
   An algorithmic project that consists of sorting numbers using two stacks with the minimum possible number of operations.
 
-- **[pipex](mileston2/pipex)**  
+- **[pipex](https://github.com/NicoBuquetCebada/pipex)**  
   Reproduction of the behavior of Unix pipes by connecting processes through file descriptors and pipelines.
 
-- **[fdf](mileston2/fdf)**  
+- **[fdf](https://github.com/NicoBuquetCebada/fdf)**  
   A graphical project that represents a 3D map in wireframe form from a height file using **minilibx**, a lightweight graphics library.
 
 </details>
@@ -165,10 +165,10 @@ This repository is organized according to the cursus milestones:
 <details>
 <summary><strong>Milestone 3</strong></summary>
 
-- **[minishell](mileston3/minishell)**  
+- **[minishell](https://github.com/NicoBuquetCebada/minishell)**  
   Implementation of a Linux command interpreter based on Bash behavior, allowing among other things binary execution, pipe handling, redirections, and environment variables.
 
-- **[philosophers](mileston3/philosophers)**  
+- **[philosophers](https://github.com/NicoBuquetCebada/philosophers)**  
   Simulation of the dining philosophers problem to study concurrency, synchronization, and thread usage.
 
 </details>
@@ -176,7 +176,7 @@ This repository is organized according to the cursus milestones:
 <details>
 <summary><strong>Milestone 4</strong></summary>
 
-- **[net_practice](mileston4/net_practice)**  
+- **[net_practice](https://github.com/NicoBuquetCebada/net_practice)**  
   A project focused on understanding IP addressing, subnetting, and routing through practical networking exercises.
 
 </details>
